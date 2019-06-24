@@ -38,7 +38,7 @@ class Reporter:
 
     @staticmethod 
     def format_torrents(torrents):
-        return "\n".join([f" -{t[:32]}..." for t in torrents])
+        return "\n".join([f" -{t[:34]}" for t in torrents])
 
     @staticmethod
     def sizeof_fmt(num):
